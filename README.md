@@ -1,7 +1,8 @@
 <<<<<<< HEAD
 ## Getting Started
+Este código é uma implementação da estrutura de dados Árvore Binária de Busca em Java. Ele implementa a interface EstruturaDeDados<T>, que é uma interface genérica que define um conjunto de métodos que todas as estruturas de dados devem implementar. A classe Tree<T> é um tipo genérico que recebe um tipo T, que deve ser comparável (implementando a interface Comparable<T>). Isso significa que a árvore pode armazenar qualquer tipo de dado que possa ser comparado com outros objetos do mesmo tipo.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A classe Tree<T> possui um atributo privado NodeTree<T> root, que representa a raiz da árvore. Além disso, a classe possui um construtor que recebe um nó da árvore, mas define a raiz como nula. Isso significa que a árvore começa vazia, e os nós são adicionados à medida que são inseridos.
 
 ## Folder Structure
 
